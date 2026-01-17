@@ -11,6 +11,10 @@ header {
 nav {
     /* first lesson*/
     background-color: aquamarine;
+
+    position: sticky;
+    top:0;
+    z-index:  2;
 }
 
 #intro {
@@ -109,6 +113,10 @@ button {
     font-size: 20px;
     font-weight: bold;
 
+    position:fixed;
+    right: 10px;
+    bottom: 80px;
+
     padding: 5px;
     border-radius: 5px;
     border:none;
@@ -176,4 +184,12 @@ footer{
 }
 #bestsellers h2{
     padding: 20px;
+}
+
+
+#book-reveiws p,
+#book-reviews h3{
+    position:relative;
+    left: 40px;
+    width: 400px;
 }
