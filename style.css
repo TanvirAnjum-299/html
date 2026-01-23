@@ -6,6 +6,12 @@ body {
 header {
     /* first lesson*/
     background-color: brown;
+
+    /*fifth lesson*/
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 nav {
@@ -100,9 +106,16 @@ footer p:first-child span {
 .teacher-info {
     /* first lesson*/
     border-radius: 5px;
+    /*third lesson*/
     margin: 30px;
     width : 400px;
-    box-shadow: 6px 0px  21px -3px #333333
+    box-shadow: 6px 0px  21px -3px #333333;
+
+     /*fifth lesson*/
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
 }
 
 button {
@@ -181,6 +194,11 @@ td{
 footer{
     padding: 20px;
     margin-top:10px;
+
+    /*fifth lesson*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #bestsellers h2{
     padding: 20px;
@@ -192,4 +210,15 @@ footer{
     position:relative;
     left: 40px;
     width: 400px;
+}
+
+/*fifth lesson*/
+
+#videos div {
+display: flex;
+justify-content: space-around;
+}
+
+#teachers {
+display: flex;
 }
