@@ -222,3 +222,28 @@ justify-content: space-around;
 #teachers {
 display: flex;
 }
+
+/*sixth lesson*/
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+#intro{
+    grid-area: intro;
+}
+
+#mainsection{
+    grid-area: main-section;
+}
+#bestsellers{
+    grid-area: bestsellers;
+}
+
+footer{
+    grid-area: footer;
+}
